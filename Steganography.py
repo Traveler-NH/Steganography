@@ -104,3 +104,6 @@ if mode == 2:
     im_inside = np.array(FormatArray(im_inside_array, 2), dtype='uint8')
 
     plt.imsave(im_inside_path, im_inside)
+     
+print('---程序运行结束---')
+input('按下回车键退出程序···')
